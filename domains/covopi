@@ -1,0 +1,21 @@
+{
+    "description": "Project Description",
+
+    "domain": "is-local.org",
+    "subdomain": "covopi",
+
+    "owner": {
+        "repo": "https://github.com/username/repo",
+        "email": "hello@example.com"
+    },
+
+    "record": {
+        "A": ["109.205.56.192"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "is-local.org",
+        "MX": ["mx1.is-local.org", "mx2.is-local.org"],
+        "TXT": ["example_verification=1234567890"]
+    },
+
+    "proxied": false
+}
